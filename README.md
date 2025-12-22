@@ -1,0 +1,2 @@
+# hugotests
+Hugo website testing
