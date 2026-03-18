@@ -142,7 +142,7 @@ theme = "hugo-blog-awesome"
 [Languages.pt-br.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome hugo blog"
+  intro = "Aptenodytes patagonicus"
   name = "Iporã Possantti"
   description = "Um tema Hugo veloz e minimalista com suporte a modo claro e escuro para rodar um blog ou site pessoal"
 
@@ -168,3 +168,7 @@ url = "https://github.com/iporepos"
 [[params.socialIcons]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/possantti"
+
+[[params.socialIcons]]
+name = "researchgate"
+url = "https://www.researchgate.net/profile/Ipora-Brito-Possantti"

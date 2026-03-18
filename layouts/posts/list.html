@@ -1,0 +1,44 @@
+
+{{ define "main" }}
+
+<div class="gallery">
+
+  {{ range .Pages.ByDate.Reverse }}
+
+    <div class="gallery-item">
+      <a href="{{ .RelPermalink }}">
+
+        {{ $img := "" }}
+
+        {{/* 1. Front matter */}}
+        {{ if .Params.featured_image }}
+          {{ $img = .Params.featured_image | relURL }}
+        {{ end }}
+
+        {{/* 2. Local cover in page bundle */}}
+        {{ if not $img }}
+          {{ with .Resources.GetMatch "cover.*" }}
+            {{ $img = .RelPermalink }}
+          {{ end }}
+        {{ end }}
+
+        {{/* 3. Global fallback */}}
+        {{ if not $img }}
+          {{ $img = "images/default.jpg" | relURL }}
+        {{ end }}
+
+        <img src="{{ $img }}" alt="{{ .Title }}">
+
+        <div class="gallery-meta">
+          <h3>{{ .Title }}</h3>
+          <small>{{ .Date | time.Format ":date_long" }}</small>
+        </div>
+
+      </a>
+    </div>
+
+  {{ end }}
+
+</div>
+
+{{ end }}
