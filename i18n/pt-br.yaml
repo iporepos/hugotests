@@ -3,14 +3,29 @@
   translation: "Início"
   
 - id: "home.recent_posts"
-  translation: "Publicações recentes"
+  translation: "Posts recentes"
 
 - id: "home.see_all_posts"
-  translation: "Todas as publicações"
+  translation: "Todos os posts"
+
+## CATEGORIES ##
+
+- id: "categories.title"
+  translation: "Filtrar por categoria"
+
+- id: "categories.intro_text"
+  translation: "Apresentando posts na categoria"
+
+## BLOG ##
+- id: "blog.blog_intro_title"
+  translation: "Bem-vindo ao meu blog"
+
+- id: "blog.blog_intro_text"
+  translation: "Aqui compartilho minhas ideias, fotografias e experiências de sensoriamento remoto."
 
 ## SINGLE ##
 - id: "single.table_of_contents"
-  translation: "Tabela de Conteúdo"
+  translation: "Sumário"
 
 ## FOOTER ##
 - id: "footer.go_to_top"
