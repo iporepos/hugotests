@@ -20,7 +20,8 @@
                 {{ end }}
 
                 {{ if $img }}
-                  <figure class="post-featured">
+                <figure class="post-featured">
+
                   <img src="{{ $img }}" alt="{{ .Title }}">
 
                   {{ if or .Params.featured_caption .Params.featured_credit }}

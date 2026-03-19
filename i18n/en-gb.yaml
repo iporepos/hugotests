@@ -16,6 +16,14 @@
 - id: "categories.intro_text"
   translation: "Showing posts in the category"
 
+## PROJECTS ##
+
+- id: "projects.title"
+  translation: "Featured projects"
+
+- id: "projects.intro"
+  translation: "Aqui compartilho minhas ideias, fotografias e experiências de sensoriamento remoto."
+
 ## BLOG ##
 - id: "blog.blog_intro_title"
   translation: "Welcome to my blog"

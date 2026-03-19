@@ -44,25 +44,33 @@ theme = "hugo-blog-awesome"
     name = 'Home'
     url = '/'
     weight = 10
+
  [[Languages.en-gb.menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
     weight = 20
+
  [[Languages.en-gb.menu.main]]
     pageRef="blog"
     name = 'Blog'
     url = '/blog/'
     weight = 30
 
+ [[Languages.en-gb.menu.main]]
+    pageRef="projects"
+    name = 'Projects'
+    url = '/projects/'
+    weight = 40
+
 [Languages.en-gb.params]
-  sitename = "Aptenodytes patagonicus"
+  sitename = "Iporã Brito Possantti"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
   description = "Minimal Hugo blog theme with light and dark mode support"
-  mainSections = ['blog']
+  mainSections = ['blog', 'projects']
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
@@ -81,14 +89,14 @@ theme = "hugo-blog-awesome"
 [Languages.en-gb.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Aptenodytes patagonicus"
-  name = "Iporã Possantti"
+  intro = "Iporã Brito Possantti"
+  name = "Iporã Brito Possantti"
   description = "A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog."
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
-  name = "sitename" # will use "params.sitename" or "title" by default
-  short_name = "sitename" # same as name
+  name = "Iporã Brito Possantti" # will use "params.sitename" or "title" by default
+  short_name = "Possantti" # same as name
   start_url = "/" # will use homepage url by default
   theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
   background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
@@ -109,25 +117,33 @@ theme = "hugo-blog-awesome"
     name = 'Início'
     url = '/'
     weight = 10
+
   [[Languages.pt-br.menu.main]]
     pageRef="blog"
     name = 'Blog'
     url = '/blog/'
     weight = 30
+
   [[Languages.pt-br.menu.main]]
     pageRef="about"
     name = 'Sobre'
     url = '/about/'
     weight = 20
 
+  [[Languages.pt-br.menu.main]]
+    pageRef="projects"
+    name = 'Projetos'
+    url = '/projects/'
+    weight = 40
+
 [Languages.pt-br.params]
-  sitename = "Aptenodytes patagonicus"
+  sitename = "Iporã Brito Possantti"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
   description = "Um tema Hugo veloz e minimalista com suporte a modo claro e escuro para rodar um blog ou site pessoal"
-  mainSections = ['blog']
+  mainSections = ['blog', 'projects']
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
@@ -146,14 +162,14 @@ theme = "hugo-blog-awesome"
 [Languages.pt-br.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Aptenodytes patagonicus"
-  name = "Iporã Possantti"
+  intro = "Iporã Brito Possantti"
+  name = "Iporã Brito Possantti"
   description = "Um tema Hugo veloz e minimalista com suporte a modo claro e escuro para rodar um blog ou site pessoal"
 
 # Allow to override webmanifest options
 [Languages.pt-br.params.webmanifest]
-  name = "sitename" # will use "params.sitename" or "title" by default
-  short_name = "sitename" # same as name
+  name = "Iporã Brito Possantti" # will use "params.sitename" or "title" by default
+  short_name = "Possantti" # same as name
   start_url = "/" # will use homepage url by default
   theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
   background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)

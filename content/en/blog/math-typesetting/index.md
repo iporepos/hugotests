@@ -4,6 +4,7 @@ title: Math Typesetting - use Mathematical notation in blog posts
 date: 2023-04-01
 description: A brief guide to setup KaTeX
 math: true
+featured_image: https://upload.wikimedia.org/wikipedia/commons/f/f4/Regnbyge.jpg
 ---
 
 Mathematical notation in a Hugo project can be enabled by using
