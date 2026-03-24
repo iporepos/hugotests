@@ -1,3 +1,37 @@
+figure {
+  margin: 1.5rem 0;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-style: normal !important;
+}
+
+.copy-code-button {
+  background: rgba(0,0,0,0.2);
+  border: none;
+  color: white;
+  padding: 0.3rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy-code-button:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.copy-code-button svg {
+  display: block;
+}
+
+.home-section + .home-section {
+  margin-top: 50px !important;
+}
 
 .gallery {
   display: grid;
@@ -52,6 +86,10 @@
 }
 /* Credit styling */
 .wrapper.post .post-featured figcaption.post-caption .credit {
+  color: #888;
+}
+
+.credit {
   color: #888;
 }
 
