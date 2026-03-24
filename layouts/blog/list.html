@@ -22,10 +22,6 @@
     <details class="category-toc" {{ $open }}>
       <summary><b>{{ i18n "categories.title" }}</b></summary>
       <ul>
-        <!-- "All" link -->
-        <li>
-          <a href="{{ "blog/" | relLangURL }}">{{ i18n "home.see_all_posts" }}</a>
-        </li>
 
         <!-- Categories -->
         {{ range $name, $pages := $categories }}

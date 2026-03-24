@@ -44,10 +44,14 @@ You can use the following syntax to include an image. Path of the image should b
 You can also include image from external sources.
 
 ```markdown
-![Image](https://source.unsplash.com/random/600x400/?tech)
+![Image](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg/960px-Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg)
 ```
 
-![Image](https://source.unsplash.com/random/600x400/?tech)
+![Image](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg/960px-Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg)
+
+Using an direct shortcode:
+
+{{< img key="basin_map" >}}
 
 ## Blockquotes
 
@@ -66,7 +70,7 @@ The blockquote element represents content that is quoted from another source, op
 
 ## Tables
 
-Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-box.
+Tables aren't part of the core [[Markdown]] spec, but Hugo supports them out-of-the-box.
 
    Name | Age
 --------|------
@@ -127,6 +131,8 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
 ### Inline code
 
 Use the backtick to refer to a `variable` within a sentence.
+
+---
 
 ## List Types
 

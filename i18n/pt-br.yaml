@@ -5,8 +5,14 @@
 - id: "home.recent_posts"
   translation: "Posts recentes"
 
-- id: "home.see_all_posts"
-  translation: "Todos os posts"
+- id: "home.see_all"
+  translation: "Ver todos"
+
+- id: "home.recent_blogs"
+  translation: "Blogs recentes"
+
+- id: "home.recent_projects"
+  translation: "Projetos recentes"
 
 ## CATEGORIES ##
 

@@ -3,6 +3,7 @@ title: Emoji Support 2
 date: 2023-02-01
 author: Hugo Authors
 description: Guide to emoji usage in Hugo
+featured_image: https://raw.githubusercontent.com/iporepos/plans-assets/refs/heads/main/docs/gallery/example2.gif
 tags:
   - emoji
 ---
